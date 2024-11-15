@@ -11,7 +11,7 @@ NAME: **WRITE YOUR NAME HERE**
 3. Every time that you complete a basic point create a commit, add the files and push with the next format description: `[FEAT]: description of what you did`. See the [conventions.md](./conventions.md) file for more details.
 4. You can do your last commit and push until and before the deadline (date & time) if you do more after, we will make a reverse of your code until the last commit before the dead-line date-time (If the project is not complete there, it'll be rejected).
 5. Remember partial solutions will be no accepted, you have to complete at least **BASIC POINTS**, **Questionnaire**, but we consider the real project the **EXTRA-HOMEWORK** session (Without it your chances will be less).
-6. Rosbag's are located in [rosbag](/rover/configs/rosbags). You should source `. /opt/ros/iron/setup.bash` and `. /workspace/rover/ros2/install/setup.bash` in order to be able to check all the topics. 
+6. Rosbag's are located in [Drive](https://drive.google.com/file/d/1du7JgN_haaAiAGsxCDTqvEmQIG1qtHxE/view?usp=sharing) please download them and save them into the [rosbags folder](/rosbags). You should source `. /opt/ros/iron/setup.bash` and `. /workspace/rover/ros2/install/setup.bash` in order to be able to check all the topics. 
 
 > Note: the last one is generated once you build `usr_msgs` package
 
