@@ -1,0 +1,6 @@
+rover/ros2/build
+rover/ros2/install
+rover/ros2/log
+*.pyc
+rosbags/*
+!rosbags/.gitkeep

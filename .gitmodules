@@ -1,0 +1,6 @@
+[submodule "rover/ros2/src/rosboard_client"]
+	path = rover/ros2/src/rosboard_client
+	url = https://github.com/kiwicampus/rosboard_client.git
+[submodule "rover/ros2/src/rosboard"]
+	path = rover/ros2/src/rosboard
+	url = https://github.com/kiwicampus/rosboard.git
