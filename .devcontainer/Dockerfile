@@ -78,6 +78,7 @@ RUN \
     ros-${ROS_DISTRO}-ros-base \
     ros-${ROS_DISTRO}-geographic-msgs \
     ros-${ROS_DISTRO}-tf-transformations \
+    ros-${ROS_DISTRO}-rmw-cyclonedds-cpp \
     libgl1-mesa-glx \
     # ---------------------------------
     && apt update \
@@ -101,7 +102,8 @@ RUN pip3 install \
 RUN ln -s /usr/bin/python3 /usr/bin/python
 
 RUN touch "/home/${USERNAME}/.bashrc" \
-    && echo "source /workspace/scripts/alias_script.sh" >> "/home/${USERNAME}/.bashrc"
+    && echo "source /workspace/scripts/alias_script.sh" >> "/home/${USERNAME}/.bashrc" \
+    && echo "source /workspace/rover/configs/env_vars.sh" >> "/home/${USERNAME}/.bashrc"
 
 # -----------------------------------------------------------------------------
 # Switch back to dialog for any ad-hoc use of apt-get
